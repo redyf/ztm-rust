@@ -12,4 +12,9 @@
 //   to uppercase and lowercase
 //   * Try searching for: to_uppercase, to_lowercase
 
-fn main() {}
+fn main() {
+    let my_str = "this is my String";
+
+    assert_eq!("this is my string", my_str.to_lowercase());
+    assert_eq!("THIS IS MY STRING", my_str.to_uppercase());
+}
